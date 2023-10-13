@@ -1,0 +1,45 @@
+footer {
+    height: 150px;
+    background-color: #b2bb8a;
+}
+
+.logo-footer {
+    height: 150px;
+}
+
+.flex-row {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ctn {
+    gap: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+.img-footer {
+    height: 40px;
+    margin: 0 0 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 10px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
