@@ -4,7 +4,7 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div>
+        <header>
             <div className='logo-ctn'>
                 <img 
                     src={logo}
@@ -22,7 +22,7 @@ export default function Header() {
                 </a>
 
             </nav>
-        </div>
+        </header>
 
         
     )

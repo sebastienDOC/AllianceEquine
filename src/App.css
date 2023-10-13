@@ -2,3 +2,7 @@ body {
     margin: 0;
     font-family: 'Julius Sans One', sans-serif;
 }
+
+.center {
+    text-align: center;
+}

@@ -1,5 +1,9 @@
+import '../App.css'
+
 export default function Home() {
     return (
-        <div>Home</div>
+        <div className="center">
+            Home
+        </div>
     )
 }
