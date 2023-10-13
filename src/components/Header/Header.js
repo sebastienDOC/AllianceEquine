@@ -15,7 +15,7 @@ export default function Header() {
                 <a>ACCEUIL</a>
                 <a>EN SAVOIR PLUS</a>
                 <a>QUI SUIS-JE ?</a>
-                <a>ARTICLE</a>
+                <a>PHOTOS</a>
                 <a>CONTACT</a>
                 <a href='https://www.instagram.com/lucie.imbs/' target='blank'>
                     <img src={insta} className='insta'/>

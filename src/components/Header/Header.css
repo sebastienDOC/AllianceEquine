@@ -11,10 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    padding: 20px 0;
     gap: 40px;
     width: 100%;
     font-weight: bold;
+    background-color: #fffff0;
 }
 
 .insta {

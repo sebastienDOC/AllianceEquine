@@ -5,4 +5,13 @@ body {
 
 .center {
     text-align: center;
+    background-color: #fffff0;
+}
+.carousel-root {
+    width: 70%;
+}
+.slide, 
+.selected {
+    max-height: 300px;
+    object-fit: cover
 }
