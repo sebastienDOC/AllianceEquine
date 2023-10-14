@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/AllianceEquine/static/css/main.4ab28a06.css",
-    "main.js": "/AllianceEquine/static/js/main.30a6a289.js",
+    "main.css": "/AllianceEquine/static/css/main.10c9953d.css",
+    "main.js": "/AllianceEquine/static/js/main.21c2ed85.js",
     "static/media/fond.jpg": "/AllianceEquine/static/media/fond.f76a9820adab2354c828.jpg",
+    "static/media/Lu_6.jpg": "/AllianceEquine/static/media/Lu_6.de343d5aaf17c4327002.jpg",
     "static/media/logo_transparent.png": "/AllianceEquine/static/media/logo_transparent.f4ed348bf06997cf1690.png",
     "static/media/Lu_1.jpeg": "/AllianceEquine/static/media/Lu_1.a53cf7f805f9c4edfea7.jpeg",
+    "static/media/patient-4.jpg": "/AllianceEquine/static/media/patient-4.49471e44bb657540a063.jpg",
     "static/media/Lu_4.jpg": "/AllianceEquine/static/media/Lu_4.49ec529ffa15cb1307f8.jpg",
     "static/media/insta.png": "/AllianceEquine/static/media/insta.2e3b4d782b13bc7ad3b5.png",
+    "static/media/Lu_5.jpg": "/AllianceEquine/static/media/Lu_5.f1f737de8ddf97ff4c82.jpg",
+    "static/media/patient-2.jpg": "/AllianceEquine/static/media/patient-2.302ae1c3d4c6b53e756c.jpg",
+    "static/media/Lu_2.jpg": "/AllianceEquine/static/media/Lu_2.9c1f20c5f2603c1dfd57.jpg",
+    "static/media/patient-3.jpg": "/AllianceEquine/static/media/patient-3.4c6253b8db10ae962b15.jpg",
+    "static/media/patient-1.jpg": "/AllianceEquine/static/media/patient-1.c05288a6c13207359d5b.jpg",
     "static/media/mail.png": "/AllianceEquine/static/media/mail.acd1763f4ed67ac8704e.png",
     "index.html": "/AllianceEquine/index.html",
-    "main.4ab28a06.css.map": "/AllianceEquine/static/css/main.4ab28a06.css.map",
-    "main.30a6a289.js.map": "/AllianceEquine/static/js/main.30a6a289.js.map"
+    "main.10c9953d.css.map": "/AllianceEquine/static/css/main.10c9953d.css.map",
+    "main.21c2ed85.js.map": "/AllianceEquine/static/js/main.21c2ed85.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ab28a06.css",
-    "static/js/main.30a6a289.js"
+    "static/css/main.10c9953d.css",
+    "static/js/main.21c2ed85.js"
   ]
 }
