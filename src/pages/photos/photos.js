@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import '../App.css'
-import carousel from '../data/carousel.json'
-import photos from '../data/photos.json'
+import './photos.css'
+import carousel from '../../data/carousel.json'
+import photos from '../../data/photos.json'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Modale from '../components/Modal';
+import Modale from '../../components/Modal';
 
 export default function Photos() {
     const [interval, setInterval] = useState(8000);
@@ -31,7 +31,7 @@ export default function Photos() {
                     />
                 )}
             </Carousel>
-            <h2>Gallerie photo</h2>
+            <h2>Galerie photos</h2>
             <div className='photos'>
                 {photos.map((data) => 
                     <Modale 

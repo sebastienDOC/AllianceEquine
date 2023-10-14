@@ -2,11 +2,17 @@ import logo from '../../assets/Logo/logo_transparent.png'
 import insta from '../../assets/Contact/insta.png'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Burger from '../Burger/Burger'
 
 export default function Header() {
     return (
-        <header>
-            <div className='logo-ctn'>
+        <header >
+            <Burger 
+                pageWrapId={"page-wrap"} 
+                outerContainerId={"App"} 
+                right
+            />
+            <div className='logo-ctn' >
                 <img 
                     src={logo}
                     className='logo-header'
@@ -21,10 +27,7 @@ export default function Header() {
                 <a href='https://www.instagram.com/lucie.imbs/' target='blank'>
                     <img src={insta} className='insta'/>
                 </a>
-
             </nav>
-        </header>
-
-        
+        </header> 
     )
 }

@@ -1,5 +1,5 @@
-import Lu from '../assets/Photos/Lu_1.jpeg'
-import Lucie from '../assets/Photos/Lu_4.jpg'
+import Lu from '../../assets/Photos/Lu_1.jpeg'
+import Lucie from '../../assets/Photos/Lu_4.jpg'
 import './about.css'
 
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
                 <img 
                     src={Lu}
                     alt='Lucie avec son cheval'
-                    className='about-img'
+                    className='about-img object-pos-top'
                 />
                 <div className='about-txt'>
                     <h2>Qui suis-je ?</h2>
@@ -33,7 +33,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='flex-row margin'>
+            <div className='flex-row margin col'>
                 <div className='about-txt'>
                     <h2>Mon parcours</h2>
                     <p>
@@ -58,7 +58,7 @@ export default function About() {
                 <img 
                     src={Lucie}
                     alt='Lucie avec son cheval'
-                    className='about-img'
+                    className='about-img object-pos'
                 />
             </div>
         </div>

@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from '../pages/home';
-import More from '../pages/more';
-import About from '../pages/about';
-import Photos from '../pages/photos';
-import Contact from '../pages/contact';
-import Error from '../pages/error';
+import Home from '../pages/home/home';
+import More from '../pages/more/more';
+import About from '../pages/about/about';
+import Photos from '../pages/photos/photos';
+import Contact from '../pages/contact/contact';
+import Error from '../pages/error/error';
 
 export default function Router() {
     return (

@@ -61,3 +61,16 @@ a:hover {
     color: #B2BB8A;
     transform: scale(1);
 }
+
+@media screen and (max-width: 750px) {
+    .nav-anchors {
+        display: none;
+    }
+    .logo-ctn {
+        height: 200px;
+        background-position : left 10%;
+    }
+    .logo-header {
+        height: 200px;
+    }
+}

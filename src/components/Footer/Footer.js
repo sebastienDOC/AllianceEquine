@@ -13,31 +13,37 @@ export default function Footer() {
                     className='logo-footer'
                 />
                 <div className='ctn'>
-                    <img 
-                        src={map}
-                        className='img-footer'
-                    />
-                    <div className='infos'>
-                        <h3>Adresse</h3> 
-                        <p>86 rue de Longvic, 21000 DIJON</p>
-                    </div>
-                    <a href='mailto:exemple@gmail.com'>
+                    <div className='flex-row left'>
                         <img 
-                            src={mail}
+                            src={map}
                             className='img-footer'
                         />
-                    </a>
-                    <div className='infos'>
-                        <h3>E-mail</h3> 
-                        <p>allianceequine@gmail.com</p>
+                        <div className='infos'>
+                            <h3>Adresse</h3> 
+                            <p>86 rue de Longvic, 21000 DIJON</p>
+                        </div>
                     </div>
-                    <img 
-                        src={tel}
-                        className='img-footer'
-                    />
-                    <div className='infos'>
-                        <h3>Téléphone</h3> 
-                        <p>07 85 56 03 82</p>
+                    <div className='flex-row left'>
+                        <a href='mailto:exemple@gmail.com'>
+                            <img 
+                                src={mail}
+                                className='img-footer'
+                            />
+                        </a>
+                        <div className='infos'>
+                            <h3>E-mail</h3> 
+                            <p>allianceequine@gmail.com</p>
+                        </div>
+                    </div>
+                    <div className='flex-row left'>
+                        <img 
+                            src={tel}
+                            className='img-footer'
+                        />
+                        <div className='infos'>
+                            <h3>Téléphone</h3> 
+                            <p>07 85 56 03 82</p>
+                        </div>
                     </div>
                 </div>
             </div>
