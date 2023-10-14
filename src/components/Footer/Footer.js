@@ -29,7 +29,7 @@ export default function Footer() {
                     </a>
                     <div className='infos'>
                         <h3>E-mail</h3> 
-                        <p>s.dechand21@gmail.com</p>
+                        <p>allianceequine@gmail.com</p>
                     </div>
                     <img 
                         src={tel}
@@ -37,7 +37,7 @@ export default function Footer() {
                     />
                     <div className='infos'>
                         <h3>Téléphone</h3> 
-                        <p>06 23 21 38 15</p>
+                        <p>07 85 56 03 82</p>
                     </div>
                 </div>
             </div>

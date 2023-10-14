@@ -52,12 +52,12 @@ a:focus::after {
   transform: translate3d(0, 0.2em, 0);
 }
 
+a:visited {
+    color: black
+}
+
 a:hover {
     cursor: pointer;
     color: #B2BB8A;
     transform: scale(1);
-}
-
-a:visited {
-    color: #B2BB8A
 }

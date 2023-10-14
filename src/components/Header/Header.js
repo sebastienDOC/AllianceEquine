@@ -1,6 +1,7 @@
 import logo from '../../assets/Logo/logo_transparent.png'
 import insta from '../../assets/Contact/insta.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -12,11 +13,11 @@ export default function Header() {
                 />
             </div>
             <nav className='nav-anchors'>
-                <a>ACCEUIL</a>
-                <a>EN SAVOIR PLUS</a>
-                <a>QUI SUIS-JE ?</a>
-                <a>PHOTOS</a>
-                <a>CONTACT</a>
+                <Link to='/'>ACCEUIL</Link>
+                <Link to='/more'>EN SAVOIR PLUS</Link>
+                <Link to='/about-me'>QUI SUIS-JE ?</Link>
+                <Link to='/photos'>PHOTOS</Link>
+                <Link to='/contact'>CONTACT</Link>
                 <a href='https://www.instagram.com/lucie.imbs/' target='blank'>
                     <img src={insta} className='insta'/>
                 </a>
