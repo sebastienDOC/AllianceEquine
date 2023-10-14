@@ -1,0 +1,143 @@
+.flex-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffff0;
+    padding: 0 20px;
+}
+.title {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.col-more {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.row-more {
+    display: flex;
+    justify-content: center;
+}
+.flex-more h1 {
+    color: #B2BB8A;
+    margin: 0 0 20px 20px;
+}
+.flex-more h2 {
+    font-weight: 600;
+    color: #B2BB8A;
+    margin: 10px 20px;
+}
+.flex-img-more {
+    display: flex;
+    justify-content: center;
+}
+.more-img {
+    height: 200px;
+    width: 25%;
+    margin: 0 20px 20px;
+    object-fit: cover;
+    object-position: top 100%;
+}
+.more-img-title {
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px ;
+}
+.more-txt {
+    width: 90%;
+    padding: 0 50px;
+}
+.rel {
+    position: relative;
+}
+img.abs {
+    position: relative;
+    margin: 10px auto;
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    object-position: left 10%;
+}
+.decal {
+    padding-left: 20px;
+    margin: 0 0 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .flex-more h1 {
+        font-size: 25px;
+        margin: 10px;
+    }
+    .flex-more h2 {
+        font-size: 18px;
+        margin: 10px;
+    }
+    .flex-more p {
+        font-size: 12px;
+    }
+    .more-img {
+        height: 150px;
+        width: 30%;
+        margin: 0 5px 5px;
+    }
+    .more-img-title {
+        height: 200px;
+        width: 80%;
+        object-fit: cover;
+        margin: 0 0 20px 0;
+    }
+    .more-txt {
+        
+        padding: 0 25px;
+    }
+    img.abs {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: auto;
+        height: 200px;
+        width: 80%;
+        object-fit: cover;
+        object-position: left 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flex-more {
+        padding: 5px;
+    }
+    .flex-more h1 {
+        font-size: 20px; 
+    }
+    .flex-more h2 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .flex-more p {
+        font-size: 10px;
+    }
+    .more-img {
+        height: 100px;
+    }
+    .more-img-title {
+        height: 100px;
+        width: 80%;
+    }
+    .more-txt {
+        padding: 0 10px;
+    }
+    img.abs {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: auto;
+        height: 100px;
+        width: 80%;
+        object-fit: cover;
+        object-position: left 10%;
+    }
+}

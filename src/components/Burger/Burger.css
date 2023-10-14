@@ -5,6 +5,7 @@
     height: 30px;
     left: 10px;
     top: 160px;
+    display: none;
   }
   
   /* Color/shape of burger icon bars */
@@ -93,4 +94,8 @@
     .bm-burger-bars {
         display: block;
       }
+    .bm-burger-button {
+      display: block;
+    }
+    
 }

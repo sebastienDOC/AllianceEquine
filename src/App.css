@@ -12,6 +12,10 @@ p {
     font-size: 14px;
 }
 
+img {
+    border-radius: 20px;
+}
+
 .center {
     display: flex;
     justify-content: center;
