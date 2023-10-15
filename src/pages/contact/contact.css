@@ -1,0 +1,63 @@
+.contact-ctn {
+    background-color: #fffff0;
+    display: flex;
+    padding: 20px;
+}
+.contact-txt {
+    width: 100%;
+    flex-direction: column;
+}
+.contact-form {
+    width: 100%;
+}
+.contact-ctn h2{
+    margin: 0;
+    padding: 0 20px 20px;
+    color: #B2BB8A;
+}
+.contact-ctn h4{
+    margin: 0;
+    padding: 5px 50px;
+}
+.contact-horaires {
+    padding-bottom: 20px;
+}
+.contact-icons {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 5px 50px;
+}
+.dim {
+    width: 30px;
+    height: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+input {
+    margin: 5px 0;
+}
+button {
+    margin: 5px 0;
+    width: 75px;
+}
+
+@media screen and (max-width: 750px) {
+    .contact-ctn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form {
+        padding-top: 20px;
+    }
+    .contact-ctn h2{
+        font-size: 18px;
+    }
+    .contact-ctn h4{
+        font-size: 14px;
+    }
+}

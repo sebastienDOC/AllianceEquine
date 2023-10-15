@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    gap: 40px;
+    gap: 30px;
     width: 100%;
     font-weight: bold;
     background-color: #fffff0;
@@ -24,14 +24,14 @@
 .logo-header {
     height: 300px;
 }
-a {
+.nav {
     color: black;
     text-decoration: none;
     display: block;
     position: relative;
     padding: 0.2em 0;
 }
-a::after {
+.nav::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -42,15 +42,15 @@ a::after {
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
 }
-a:hover::after,
-a:focus::after {
+.nav:hover::after,
+.nav:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
 }
-a:visited {
+.nav:visited {
     color: black
 }
-a:hover {
+.nav:hover {
     cursor: pointer;
     color: #B2BB8A;
     transform: scale(1);
@@ -62,9 +62,15 @@ a:hover {
     }
     .logo-ctn {
         height: 200px;
-        background-position : left 10%;
+        background-position : 92% 35%;
     }
     .logo-header {
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-ctn {
+        background-position : 86% 35%;
     }
 }

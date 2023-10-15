@@ -24,8 +24,8 @@ export default function More() {
                 <p className='more-txt'>
                     Les moyens utilisés par l'équithérapeute sont d'ordre : <br />
                     <br />
-                    <span className='decal'>• <strong>psychiques</strong> : la parole, le discours, le sens, le partage émotionnel, l’expérience vécue, le désir... </span>
-                    <span className='decal'>• <strong>corporels</strong> : la sensation, le mouvement, la communication non-verbale, l’expression gestuelle ...</span>
+                    <div className='decal'>• <strong>psychiques</strong> : la parole, le discours, le sens, le partage émotionnel, l’expérience vécue, le désir... </div>
+                    <div className='decal'>• <strong>corporels</strong> : la sensation, le mouvement, la communication non-verbale, l’expression gestuelle ...</div>
                     <br/>
                     L'équithérapeute utilise des <strong>outils</strong> provenant de spécialités telles que la psychologie, de la neurologie, l'orthophonie, 
                     la psychomotricité ou la kinésithérapie en les <strong>adaptant à une situation incluant le cheval et le patient.</strong><br />
@@ -33,8 +33,8 @@ export default function More() {
                     Les activités proposées passent par <strong>la rencontre avec le cheval</strong> sous toutes ses formes.Pas forcement à cheval mais 
                     <strong> toujours avec lui</strong>.<br />
                     <br />
-                    <span className='decal'>• <strong>A pieds</strong> : soin, travail en liberté, parcours en main …</span>
-                    <span className='decal'>• <strong>Ou monté</strong> : Maniabilité, jeux thérapeutiques, monte sensorielle, relaxation , travail sur la motricité ...</span>
+                    <div className='decal'>• <strong>A pieds</strong> : soin, travail en liberté, parcours en main …</div>
+                    <div className='decal'>• <strong>Ou monté</strong> : Maniabilité, jeux thérapeutiques, monte sensorielle, relaxation , travail sur la motricité ...</div>
                     <br />
                     Le travail est proposé en <strong>fonction de la personne et des objectifs thérapeutiques établis</strong>. Cet accompagnement fait l'objet de bilans réguliers.
                 </p>
@@ -47,7 +47,7 @@ export default function More() {
                     <img 
                         src={P2} 
                         alt="Lucie et son patient pendant une séance d'équithérapie avec un cheval brun"
-                        className='more-img'
+                        className='more-img mid'
                     />
                     <img 
                         src={P3} 
@@ -63,10 +63,10 @@ export default function More() {
                     L'équithérapie s'adresse <strong>aux enfants comme aux adultes</strong> présentant des 
                     <strong> difficultés psychologiques, physiques ou comportementales</strong>.<br />
                     <br />
-                    <span className='decal'>• en recherche de mieux-être dans un moment de vie difficile</span>
-                    <span className='decal'>• souffrance psychologique (dépression, anxiété ...)</span>
-                    <span className='decal'>• porteur d'un handicap : mental ou physique (autisme, trisomie, polyhandicap ...)</span>
-                    <span className='decal'>• en difficulté émotionnelle ou comportementale (difficultés scolaires, dyspraxie, dysphasie, hyperactivité, ….)</span>
+                    <div className='decal'>• en recherche de mieux-être dans un moment de vie difficile</div>
+                    <div className='decal'>• souffrance psychologique (dépression, anxiété ...)</div>
+                    <div className='decal'>• porteur d'un handicap : mental ou physique (autisme, trisomie, polyhandicap ...)</div>
+                    <div className='decal'>• en difficulté émotionnelle ou comportementale (difficultés scolaires, dyspraxie, dysphasie, hyperactivité, ….)</div>
                     Pour bénéficier d'un projet en équithérapie, il n'est pas indispensable de savoir monter à cheval ni d'avoir déjà été en relation avec les équidés.
                 </p>
             </div>
@@ -113,12 +113,12 @@ export default function More() {
                     <br/>
                     Voici quelques exemples d'objectifs :<br/>
                     <br/>
-                    <span className='decal'>• travail de réassurance, de confiance en soi et d'estime de soi.<br/></span>
-                    <span className='decal'>• autonomisation, favoriser l'affirmation de soi.<br/></span>
-                    <span className='decal'>• ouverture à la communication, socialisation, à la découverte et au respect de l'autre.<br/></span>
-                    <span className='decal'>• aide à la verbalisation, à l'expression et à la gestion des émotions.<br/></span>
-                    <span className='decal'>• prise de conscience de son corps et de son être dans sa globalité, de l'image qu'on a de soi, se détendre, lâcher-prise.<br/></span>
-                    <span className='decal'>• travailler la motricité : équilibre, tonicité, repères spacio-temporels, coordination ...</span>
+                    <div className='decal'>• travail de réassurance, de confiance en soi et d'estime de soi.<br/></div>
+                    <div className='decal'>• autonomisation, favoriser l'affirmation de soi.<br/></div>
+                    <div className='decal'>• ouverture à la communication, socialisation, à la découverte et au respect de l'autre.<br/></div>
+                    <div className='decal'>• aide à la verbalisation, à l'expression et à la gestion des émotions.<br/></div>
+                    <div className='decal'>• prise de conscience de son corps et de son être dans sa globalité, de l'image qu'on a de soi, se détendre, lâcher-prise.<br/></div>
+                    <div className='decal'>• travailler la motricité : équilibre, tonicité, repères spacio-temporels, coordination ...</div>
                 </p>
                 <span className='flex-img-more'>
                     <img 

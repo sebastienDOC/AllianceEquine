@@ -41,6 +41,9 @@
     object-fit: cover;
     object-position: top 100%;
 }
+.mid {
+    object-position: 40%;
+}
 .more-img-title {
     height: 300px;
     width: 50%;
@@ -106,6 +109,11 @@ img.abs {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .mid {
+        object-position: 35%;
+    }
+}
 @media screen and (max-width: 500px) {
     .flex-more {
         padding: 5px;
