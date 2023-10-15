@@ -1,0 +1,92 @@
+.horses-ctn {
+    background-color: #fffff0;
+}
+.horses-ctn h2 {
+    margin: 0;
+    padding: 20px 10%;
+}
+.horses-ctn h3,
+.horses-ctn h4 {
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.chevaux,
+.poneys {
+    padding-bottom: 50px;
+}
+.horses {
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    .horses-ctn h2 {
+        padding: 15px 10%;
+        font-size: 20px;
+    }
+    .horses-ctn h3{
+        font-size: 16px;
+    }
+    .horses-ctn h4 {
+        font-size: 14px;
+    }
+    .chevaux,
+    .poneys {
+        padding-bottom: 30px;
+    }
+    .horses {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .horses-ctn {
+        padding-top: 20px;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .horses-ctn h2 {
+        padding: 15px 10%;
+        font-size: 20px;
+    }
+    .horses-ctn h3{
+        font-size: 16px;
+    }
+    .horses-ctn h4 {
+        font-size: 14px;
+    }
+    .chevaux,
+    .poneys {
+        padding-bottom: 30px;
+    }
+    .horses {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .horses-ctn h2 {
+        padding: 10px 10%;
+        font-size: 16px;
+    }
+    .horses-ctn h3{
+        font-size: 14px;
+    }
+    .horses-ctn h4 {
+        font-size: 12px;
+    }
+    .chevaux,
+    .poneys {
+        padding-bottom: 20px;
+    }
+    .horses {
+        height: 200px;
+    }
+}

@@ -16,16 +16,17 @@ export default function Header() {
                 <img 
                     src={logo}
                     className='logo-header'
+                    alt="Logo d'Alliance Équine"
                 />
             </div>
             <nav className='nav-anchors'>
-                <Link to='/'>ACCEUIL</Link>
+                <Link to='/'>ACCUEIL</Link>
                 <Link to='/more'>EN SAVOIR PLUS</Link>
+                <Link to='/horses'>Les chevaux</Link>
                 <Link to='/about-me'>QUI SUIS-JE ?</Link>
                 <Link to='/photos'>PHOTOS</Link>
-                <Link to='/contact'>CONTACT</Link>
                 <a href='https://www.instagram.com/lucie.imbs/' target='blank'>
-                    <img src={insta} className='insta'/>
+                    <img src={insta} className='insta' alt="Logo d'Instagram"/>
                 </a>
             </nav>
         </header> 

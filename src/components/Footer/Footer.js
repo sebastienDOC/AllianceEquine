@@ -11,12 +11,14 @@ export default function Footer() {
                 <img 
                     src={logo}
                     className='logo-footer'
+                    alt="Logo d'Alliance Équine"
                 />
                 <div className='ctn'>
                     <div className='flex-row left'>
                         <img 
                             src={map}
                             className='img-footer'
+                            alt='Icone de localisation'
                         />
                         <div className='infos'>
                             <h3>Adresse</h3> 
@@ -28,6 +30,7 @@ export default function Footer() {
                             <img 
                                 src={mail}
                                 className='img-footer'
+                                alt='Icone de mail'
                             />
                         </a>
                         <div className='infos'>
@@ -39,6 +42,7 @@ export default function Footer() {
                         <img 
                             src={tel}
                             className='img-footer'
+                            alt='Icone de téléphone'
                         />
                         <div className='infos'>
                             <h3>Téléphone</h3> 

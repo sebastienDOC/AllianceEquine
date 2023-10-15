@@ -2,20 +2,13 @@ body {
     margin: 0;
     font-family: 'Julius Sans One', sans-serif;
 }
-
-a {
-    color: white;
-}
-
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-
 img {
     border-radius: 20px;
 }
-
 .center {
     display: flex;
     justify-content: center;

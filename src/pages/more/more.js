@@ -14,7 +14,7 @@ export default function More() {
                 <span className='flex-img-more'>
                     <img 
                         src={Lu} 
-                        alt='Lucie embrassant son cheval'
+                        alt='Lucie souriant avec son cheval blanc'
                         className='more-img-title'
                     />
                 </span>
@@ -24,8 +24,8 @@ export default function More() {
                 <p className='more-txt'>
                     Les moyens utilisés par l'équithérapeute sont d'ordre : <br />
                     <br />
-                    <p className='decal'>• <strong>psychiques</strong> : la parole, le discours, le sens, le partage émotionnel, l’expérience vécue, le désir... </p>
-                    <p className='decal'>• <strong>corporels</strong> : la sensation, le mouvement, la communication non-verbale, l’expression gestuelle ...</p>
+                    <span className='decal'>• <strong>psychiques</strong> : la parole, le discours, le sens, le partage émotionnel, l’expérience vécue, le désir... </span>
+                    <span className='decal'>• <strong>corporels</strong> : la sensation, le mouvement, la communication non-verbale, l’expression gestuelle ...</span>
                     <br/>
                     L'équithérapeute utilise des <strong>outils</strong> provenant de spécialités telles que la psychologie, de la neurologie, l'orthophonie, 
                     la psychomotricité ou la kinésithérapie en les <strong>adaptant à une situation incluant le cheval et le patient.</strong><br />
@@ -33,25 +33,25 @@ export default function More() {
                     Les activités proposées passent par <strong>la rencontre avec le cheval</strong> sous toutes ses formes.Pas forcement à cheval mais 
                     <strong> toujours avec lui</strong>.<br />
                     <br />
-                    <p className='decal'>• <strong>A pieds</strong> : soin, travail en liberté, parcours en main …</p>
-                    <p className='decal'>• <strong>Ou monté</strong> : Maniabilité, jeux thérapeutiques, monte sensorielle, relaxation , travail sur la motricité ...</p>
+                    <span className='decal'>• <strong>A pieds</strong> : soin, travail en liberté, parcours en main …</span>
+                    <span className='decal'>• <strong>Ou monté</strong> : Maniabilité, jeux thérapeutiques, monte sensorielle, relaxation , travail sur la motricité ...</span>
                     <br />
                     Le travail est proposé en <strong>fonction de la personne et des objectifs thérapeutiques établis</strong>. Cet accompagnement fait l'objet de bilans réguliers.
                 </p>
                 <div className='row-more'>
                     <img 
                         src={P1} 
-                        alt='Lucie embrassant son cheval'
+                        alt="Lucie et son patient pendant une séance d'équithérapie avec un cheval brun"
                         className='more-img'
                     />
                     <img 
                         src={P2} 
-                        alt='Lucie embrassant son cheval'
+                        alt="Lucie et son patient pendant une séance d'équithérapie avec un cheval brun"
                         className='more-img'
                     />
                     <img 
                         src={P3} 
-                        alt='Lucie embrassant son cheval'
+                        alt='Un patient de Lucie avec une casquette fait un câlin à un cheval brun'
                         className='more-img'
                     />
                 </div>
@@ -63,10 +63,10 @@ export default function More() {
                     L'équithérapie s'adresse <strong>aux enfants comme aux adultes</strong> présentant des 
                     <strong> difficultés psychologiques, physiques ou comportementales</strong>.<br />
                     <br />
-                    <p className='decal'>• en recherche de mieux-être dans un moment de vie difficile</p>
-                    <p className='decal'>• souffrance psychologique (dépression, anxiété ...)</p>
-                    <p className='decal'>• porteur d'un handicap : mental ou physique (autisme, trisomie, polyhandicap ...)</p>
-                    <p className='decal'>• en difficulté émotionnelle ou comportementale (difficultés scolaires, dyspraxie, dysphasie, hyperactivité, ….)</p>
+                    <span className='decal'>• en recherche de mieux-être dans un moment de vie difficile</span>
+                    <span className='decal'>• souffrance psychologique (dépression, anxiété ...)</span>
+                    <span className='decal'>• porteur d'un handicap : mental ou physique (autisme, trisomie, polyhandicap ...)</span>
+                    <span className='decal'>• en difficulté émotionnelle ou comportementale (difficultés scolaires, dyspraxie, dysphasie, hyperactivité, ….)</span>
                     Pour bénéficier d'un projet en équithérapie, il n'est pas indispensable de savoir monter à cheval ni d'avoir déjà été en relation avec les équidés.
                 </p>
             </div>
@@ -74,10 +74,8 @@ export default function More() {
             <div className='col-more rel'>
                 <h2>POURQUOI LE CHEVAL ?</h2>
                 <p className='more-txt more-txt-left rel'>
-                    Le cheval est un <strong>être vivant avec sa propre personnalité</strong>, il est doux, chaud, capable<br/>
-                    de nous porter et de nous mobiliser.<br />
-                    Il permet des contacts corporels étroit : câlins, peau à peau, massage, soins,<br />
-                    portage et il manifeste son plaisir à les recevoir.<br />
+                    Le cheval est un <strong>être vivant avec sa propre personnalité</strong>, il est doux, chaud, capable de nous porter et de nous mobiliser.<br />
+                    Il permet des contacts corporels étroit : câlins, peau à peau, massage, soins, portage et il manifeste son plaisir à les recevoir.<br />
                     <strong>Il réveille ainsi la sensorialité, les émotions et l'attachement</strong>.<br />
                     <br />
                     Il est digne d’intérêt et <strong>il est valorisant</strong> de lui apporter des soins et de le monter.<br />
@@ -101,7 +99,7 @@ export default function More() {
                 </p>
                 <img 
                     src={Lu2} 
-                    alt='Lucie embrassant son cheval'
+                    alt='Lucie monte son cheval brun'
                     className='more-img abs'
                 />
             </div>
@@ -115,17 +113,17 @@ export default function More() {
                     <br/>
                     Voici quelques exemples d'objectifs :<br/>
                     <br/>
-                    <p className='decal'>• travail de réassurance, de confiance en soi et d'estime de soi.<br/></p>
-                    <p className='decal'>• autonomisation, favoriser l'affirmation de soi.<br/></p>
-                    <p className='decal'>• ouverture à la communication, socialisation, à la découverte et au respect de l'autre.<br/></p>
-                    <p className='decal'>• aide à la verbalisation, à l'expression et à la gestion des émotions.<br/></p>
-                    <p className='decal'>• prise de conscience de son corps et de son être dans sa globalité, de l'image qu'on a de soi, se détendre, lâcher-prise.<br/></p>
-                    <p className='decal'>• travailler la motricité : équilibre, tonicité, repères spacio-temporels, coordination ...</p>
+                    <span className='decal'>• travail de réassurance, de confiance en soi et d'estime de soi.<br/></span>
+                    <span className='decal'>• autonomisation, favoriser l'affirmation de soi.<br/></span>
+                    <span className='decal'>• ouverture à la communication, socialisation, à la découverte et au respect de l'autre.<br/></span>
+                    <span className='decal'>• aide à la verbalisation, à l'expression et à la gestion des émotions.<br/></span>
+                    <span className='decal'>• prise de conscience de son corps et de son être dans sa globalité, de l'image qu'on a de soi, se détendre, lâcher-prise.<br/></span>
+                    <span className='decal'>• travailler la motricité : équilibre, tonicité, repères spacio-temporels, coordination ...</span>
                 </p>
                 <span className='flex-img-more'>
                     <img 
                         src={P4} 
-                        alt='Lucie embrassant son cheval'
+                        alt="Lucie et son patient prennent soin d'un cheval brun pendant une séance d'équithérapie"
                         className='more-img-title'
                     />
                 </span>

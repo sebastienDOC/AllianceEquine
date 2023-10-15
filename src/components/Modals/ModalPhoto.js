@@ -1,11 +1,10 @@
 import ModalImage from "react-modal-image";
-import '../App.css'
 
-export default function Modale({ low, medium, alt }) {
+export default function ModalePhotos({ low, medium, alt }) {
 	
 	return (
         <ModalImage
-            className='photos-img'
+            className='photos-img'   
             small={low}
             medium={medium}
             alt={alt}

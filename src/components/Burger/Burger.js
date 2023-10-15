@@ -16,9 +16,9 @@ export default function Burger(){
     <Menu isOpen={isMenuOpen} onStateChange={handleStateChange}> 
       <Link to='/' className="menu-item" onClick={() => handleCloseMenu()}>ACCEUIL</Link>
       <Link to='/more' className="menu-item" onClick={() => handleCloseMenu()}>EN SAVOIR PLUS</Link>
+      <Link to='/horses' className="menu-item" onClick={() => handleCloseMenu()}>LES CHEVAUX</Link>
       <Link to='/about-me' className="menu-item" onClick={() => handleCloseMenu()}>QUI SUIS-JE ?</Link>
       <Link to='/photos' className="menu-item" onClick={() => handleCloseMenu()}>PHOTOS</Link>
-      <Link to='/contact' className="menu-item" onClick={() => handleCloseMenu()}>CONTACT</Link>
       <a 
         href='https://www.instagram.com/lucie.imbs/' 
         target='blank'

@@ -8,7 +8,7 @@ export default function About() {
             <div className='flex-row margin'>
                 <img 
                     src={Lu}
-                    alt='Lucie avec son cheval'
+                    alt='Lucie avec son cheval couleur caramel'
                     className='about-img object-pos-top'
                 />
                 <div className='about-txt'>
@@ -57,7 +57,7 @@ export default function About() {
                 </div>
                 <img 
                     src={Lucie}
-                    alt='Lucie avec son cheval'
+                    alt='Lucie avec son cheval blanc'
                     className='about-img object-pos'
                 />
             </div>

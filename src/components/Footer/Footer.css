@@ -2,18 +2,15 @@ footer {
     height: 150px;
     background-color: #b2bb8a;
 }
-
 .logo-footer {
     height: 150px;
 }
-
 .flex-row {
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: space-around;
 }
-
 .ctn {
     gap: 40px;
     color: white;
@@ -21,14 +18,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .img-footer {
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .copyright {
     font-size: 10px;
     height: 25px;
