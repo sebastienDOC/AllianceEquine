@@ -15,9 +15,6 @@ export default function Footer() {
                     alt="Logo d'Alliance Équine"
                 />
                 <div className='ctn'>
-                <a href='https://www.instagram.com/lucie.imbs/' target='blank'>
-                    <img src={insta} className='insta yo' alt="Logo d'Instagram"/>
-                </a>
                     <div className='flex-row left'>
                         <a href="http://maps.google.com/maps?q=loc:47.308473392217174,5.048602497223575" target="_blank">
                             <img 
@@ -32,7 +29,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className='flex-row left'>
-                        <a href='allianceequine@gmail.com'>
+                        <a href='mailto:allianceequine@gmail.com'>
                             <img 
                                 src={mail}
                                 className='img-footer'
@@ -57,6 +54,9 @@ export default function Footer() {
                             <p>07 85 56 03 82</p>
                         </div>
                     </div>
+                    <a href='https://www.instagram.com/lucie.imbs/' target='blank' rel="noreferrer">
+                        <img src={insta} className='insta yo' alt="Logo d'Instagram"/>
+                    </a>
                 </div>
             </div>
             <div className='copyright'>

@@ -1,23 +1,30 @@
 .contact-ctn {
     background-color: #fffff0;
     display: flex;
+    justify-content: center;
     padding: 20px;
 }
 .contact-txt {
-    width: 100%;
-    flex-direction: column;
+    margin: auto 5%;
 }
 .contact-form {
-    width: 100%;
+    margin: auto 5%;
 }
 .contact-ctn h2{
     margin: 0;
     padding: 0 20px 20px;
     color: #B2BB8A;
 }
-.contact-ctn h4{
+h2.test2 {
+    text-align: center;
+}
+.contact-ctn h4 {
     margin: 0;
-    padding: 5px 50px;
+    padding: 5px 30px;
+}
+.contact-ctn p{
+    margin: 0;
+    padding: 0 50px;
 }
 .contact-horaires {
     padding-bottom: 20px;
@@ -32,32 +39,70 @@
     width: 30px;
     height: 30px;
 }
+
 form {
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 0 25px;
+}
+label {
+    margin: 5px 0;
 }
 input {
     margin: 5px 0;
+    padding: 5px;
+    background-color: #fffff0;
+    border: solid #B2BB8A 2px;
+    border-radius: 10px;
+}
+input::placeholder{
+    padding-left: 5px;
+}
+textarea {
+    background-color: #fffff0;
+    border: solid #B2BB8A 2px;
+    border-radius: 10px;
+    height: 150px;
 }
 button {
-    margin: 5px 0;
-    width: 75px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fffff0;
+    background-color: #B2BB8A;
+    border: solid #B2BB8A 2px;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     .contact-ctn {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     .contact-form {
         padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     .contact-ctn h2{
         font-size: 18px;
+        padding: 0 0 10px;
     }
     .contact-ctn h4{
         font-size: 14px;
+        padding: 0 25px;
+    }
+    .contact-icons {
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        width: 70%;
+        padding: 0 10px 10px 10px;
     }
 }

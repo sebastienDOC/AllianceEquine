@@ -24,6 +24,7 @@ export default function Burger(){
         href='https://www.instagram.com/lucie.imbs/' 
         target='blank'
         className="menu-item"
+        rel="noreferrer"
       >
           <img src={insta} className='insta yo'/>
       </a>

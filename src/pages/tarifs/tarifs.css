@@ -15,10 +15,9 @@
     width: 80%;
 }
 .tarifs-flex {
+    width: 80%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .tarifs-img {
     width: 80%;
@@ -41,5 +40,9 @@
     }
     .tarifs-ctn p{
         font-size: 12px;
+    }
+    .tarifs-flex {
+        flex-direction: column;
+        align-items: center;
     }
 }
