@@ -103,7 +103,6 @@ img.horses-wait-img {
     height: 650px;
     object-fit: cover;
     position: absolute;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
 }
 .horses-wait-txt{
     padding: 25px;
