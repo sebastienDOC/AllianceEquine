@@ -4,8 +4,10 @@ import carousel from '../../data/carousel.json'
 import photos from '../../data/photos.json'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Modal from '../../components/Modal/Modal';
 
 export default function Photos() {
+    const [isOpen, setIsOpen] = useState(false);
     const [interval, setInterval] = useState(5000);
     const onChange = (index, item) => {
         setInterval(item.props["data-interval"]);
@@ -37,11 +39,11 @@ export default function Photos() {
             <h2>Galerie photos</h2>
             <div className='photos'>
                 {photos.map((data) => 
-                    <img 
+                    <Modal 
                         key={data.id}
-                        src={getImgCover(data.low)} 
+                        small={getImgCover(data.low)} 
+                        large={getImgCover(data.medium)} 
                         alt={data.alt} 
-                        className='photos-img'
                     />
                 )}
             </div>
