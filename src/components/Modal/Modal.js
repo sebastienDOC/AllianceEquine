@@ -7,6 +7,7 @@ export default function Modal({ small, large, alt }) {
             small={small}
             large={large}
             alt={alt}
+            className='photos-img'
             hideDownload
             hideZoom
         />
