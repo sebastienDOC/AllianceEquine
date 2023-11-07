@@ -39,6 +39,7 @@
     margin: 25px 0;
     object-fit: cover;
     object-position: top 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 .mid {
     object-position: 40%;
@@ -61,6 +62,7 @@
     height: 400px;
     min-width: 300px;
     object-fit: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 img.abs {
     position: relative;
@@ -116,7 +118,7 @@ img.abs {
         object-position: top 10%;
     }
     .col-reverse {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 0;
     }
     .more-img-why {

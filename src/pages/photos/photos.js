@@ -4,7 +4,6 @@ import carousel from '../../data/carousel.json'
 import photos from '../../data/photos.json'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ModalePhotos from '../../components/Modals/ModalPhoto';
 
 export default function Photos() {
     const [interval, setInterval] = useState(5000);
@@ -38,11 +37,11 @@ export default function Photos() {
             <h2>Galerie photos</h2>
             <div className='photos'>
                 {photos.map((data) => 
-                    <ModalePhotos 
+                    <img 
                         key={data.id}
-                        low={getImgCover(data.low)} 
-                        medium={getImgCover(data.medium)}
+                        src={getImgCover(data.low)} 
                         alt={data.alt} 
+                        className='photos-img'
                     />
                 )}
             </div>

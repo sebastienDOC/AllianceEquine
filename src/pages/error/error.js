@@ -1,4 +1,4 @@
-import pré from '../../assets/Photos LdD/pré.jpg'
+import error from '../../assets/Photos Lu/error.webp'
 import './error.css'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +7,7 @@ export default function Error() {
         <div className='flex-center'>
             <div className='error-img-ctn'>
                 <img 
-                    src={pré} 
+                    src={error} 
                     className='error-img' 
                     alt='Des chevaux dans un pré devant un couché de soleil'
                 />

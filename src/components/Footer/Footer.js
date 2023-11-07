@@ -46,7 +46,7 @@ export default function Footer() {
                         <h3>Téléphone</h3> 
                     </div>
                     <div className='flex-col left'>
-                        <a href='https://www.instagram.com/lucie.imbs/' target='blank' rel="noreferrer">
+                        <a href='https://www.instagram.com/alliance_equine_/' target='blank' rel="noreferrer">
                             <img src={insta} className='insta img-footer' alt="Logo d'Instagram"/>
                         </a>
                         <h3>Instagram</h3> 

@@ -22,7 +22,7 @@ export default function Burger(){
       <Link to='/tarifs' className="menu-item" onClick={() => handleCloseMenu()}>TARIFS</Link>
       <Link to='/contact' className="menu-item" onClick={() => handleCloseMenu()}>CONTACT</Link>
       <a 
-        href='https://www.instagram.com/lucie.imbs/' 
+        href='https://www.instagram.com/alliance_equine_/' 
         target='blank'
         className="menu-item"
         rel="noreferrer"

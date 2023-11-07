@@ -25,14 +25,21 @@
     object-fit: cover;
     object-position: center 95%;
     margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
+@media screen and (max-width: 1000px) {
+    .tarifs-img {
+        max-height: 200px;
+    }
+}
 @media screen and (max-width: 750px) {
     .tarifs,
     .aides {
         padding: 0 20px 20px;
     }
     .tarifs-img {
+        width: 80%;
         max-height: 150px;
     }
     .tarifs-ctn h2{
