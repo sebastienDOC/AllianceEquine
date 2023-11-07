@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AllianceEquine/static/css/main.24c9a258.css",
-    "main.js": "/AllianceEquine/static/js/main.16a70704.js",
+    "main.js": "/AllianceEquine/static/js/main.d4f7eb54.js",
     "static/media/fond.jpg": "/AllianceEquine/static/media/fond.f76a9820adab2354c828.jpg",
     "static/media/Lu_12.webp": "/AllianceEquine/static/media/Lu_12.febd41da45c3aee75bd2.webp",
     "static/media/error.webp": "/AllianceEquine/static/media/error.bfd28f0c54fe7b5279c0.webp",
@@ -36,10 +36,10 @@
     "index.html": "/AllianceEquine/index.html",
     "static/media/Texte Equithérapie.txt": "/AllianceEquine/static/media/Texte Equithérapie.e8f26689e370c86453cb.txt",
     "main.24c9a258.css.map": "/AllianceEquine/static/css/main.24c9a258.css.map",
-    "main.16a70704.js.map": "/AllianceEquine/static/js/main.16a70704.js.map"
+    "main.d4f7eb54.js.map": "/AllianceEquine/static/js/main.d4f7eb54.js.map"
   },
   "entrypoints": [
     "static/css/main.24c9a258.css",
-    "static/js/main.16a70704.js"
+    "static/js/main.d4f7eb54.js"
   ]
 }
