@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: 'Julius Sans One', sans-serif;
+    margin: auto;
+    background-color: #fffff0;
 }
 p {
     font-family: 'Roboto', sans-serif;

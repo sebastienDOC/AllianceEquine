@@ -1,42 +1,41 @@
 import './more.css'
-import Lu from '../../assets/Photos/Lu_6.jpg'
-import Lu2 from '../../assets/Photos/Lu_2.jpg'
-import P1 from '../../assets/Photos/patient-1.jpg'
-import P2 from '../../assets/Photos/patient-2.jpg'
-import P3 from '../../assets/Photos/patient-3.jpg'
-import P4 from '../../assets/Photos/patient-4.jpg'
+import P1 from '../../assets/Photos Lu/Patients/patient-1.jpg'
+import P2 from '../../assets/Photos Lu/Patients/patient-2.jpg'
+import P3 from '../../assets/Photos Lu/Patients/patient-3.jpg'
+import Lu_14 from '../../assets/Photos Lu/A pied/Lu_14.jpg'
 
 export default function More() {
     return (
-        <div className='flex-more'>
-            <div className='title'>
-                <h1>thérapie avec le cheval</h1>
-                <span className='flex-img-more'>
-                    <img 
-                        src={Lu} 
-                        alt='Lucie souriant avec son cheval blanc'
-                        className='more-img-title'
-                    />
-                </span>
-            </div>
+        <div className='flex-more'>  
+            <h1>L’EQUITHERAPIE</h1>      
             <div className='col-more'>
-                <h2>COMMENT TRAVAILLE L'ÉQUITHÉRAPEUTE ?</h2>
+                <h2>Un accompagnement psychique, corporel et sensoriel guidé par le cheval</h2>
                 <p className='more-txt'>
-                    Les moyens utilisés par l'équithérapeute sont d'ordre : <br />
+                    Je vous propose dans un premier temps de nous rencontrer et de faire connaissance avec les chevaux et
+                    moi-même, puis nous élaborons ensemble vos <strong>objectifs d’accompagnement en fonction de vos envies et
+                    vos attentes</strong> repérées lors des premières séances. <br />
                     <br />
-                    <div className='decal'>• <strong>psychiques</strong> : la parole, le discours, le sens, le partage émotionnel, l’expérience vécue, le désir... </div>
-                    <div className='decal'>• <strong>corporels</strong> : la sensation, le mouvement, la communication non-verbale, l’expression gestuelle ...</div>
+                    Les diverses activités proposées en équithérapie passent par <strong>la rencontre avec le cheval</strong>. Je propose
+                    principalement de travailler à pied au côté du cheval : prendre soin de lui, l’observer et l’approcher, lui
+                    proposer d’évoluer en liberté autour de nous, effectuer des parcours moteurs avec lui, des balades en
+                    extérieur et du portage en fonction des besoins de chacun.<br />
+                    <br />
+                    Les séances sont rythmées par des <strong>exercices et des activités ludiques avec le cheval</strong> en lien avec vos
+                    objectifs mis en place lors de notre rencontre. Les objectifs d’accompagnement peuvent être dans <strong>les
+                    dimensions physiques, corporelles, psychologiques, émotionnelles, sociales, cognitives et
+                    comportementales</strong>.<br />
+                    <br />
+                    Le cheval vit dans un monde sensoriel, s’exprime à travers son corps et est perpétuellement en mouvement.
+                    Il stimule nos sens et nous amène à prendre conscience de notre corps et à travailler sur notre schéma
+                    corporel, notre équilibre, notre tonicité, nos coordinations motrices, nos gestes praxiques, notre latéralité, nos
+                    repères spatio-temporels.<br />
                     <br/>
-                    L'équithérapeute utilise des <strong>outils</strong> provenant de spécialités telles que la psychologie, de la neurologie, l'orthophonie, 
-                    la psychomotricité ou la kinésithérapie en les <strong>adaptant à une situation incluant le cheval et le patient.</strong><br />
-                    <br />
-                    Les activités proposées passent par <strong>la rencontre avec le cheval</strong> sous toutes ses formes.Pas forcement à cheval mais 
-                    <strong> toujours avec lui</strong>.<br />
-                    <br />
-                    <div className='decal'>• <strong>A pieds</strong> : soin, travail en liberté, parcours en main …</div>
-                    <div className='decal'>• <strong>Ou monté</strong> : Maniabilité, jeux thérapeutiques, monte sensorielle, relaxation , travail sur la motricité ...</div>
-                    <br />
-                    Le travail est proposé en <strong>fonction de la personne et des objectifs thérapeutiques établis</strong>. Cet accompagnement fait l'objet de bilans réguliers.
+                    Grâce à son statut d’être vivant, ses comportements et son environnement, le cheval est source de
+                    stimulations pour le développement global de l’être humain. Ainsi, nous pouvons travailler autour des
+                    émotions, des relations et de la prise en compte de soi et de l’autre, de la communication, du langage, de la
+                    confiance en soi et de l’affirmation de soi, mais aussi, de la relaxation et du lâcher prise. Être au contact du
+                    cheval augmente l’autonomie et la prise d’initiative. Nous pouvons également travailler autour des fonctions
+                    exécutives telles que l’attention, la mémorisation, la planification, la résolution de problème et l’organisation.
                 </p>
                 <div className='row-more'>
                     <img 
@@ -46,7 +45,7 @@ export default function More() {
                     />
                     <img 
                         src={P2} 
-                        alt="Lucie et son patient pendant une séance d'équithérapie avec un cheval brun"
+                        alt="Un patient de Lucie pendant une séance d'équithérapie fait un câlin à un cheval brun"
                         className='more-img mid'
                     />
                     <img 
@@ -58,75 +57,51 @@ export default function More() {
             </div>
 
             <div className='col-more'>
-                <h2>A QUI S'ADRESSE L'ÉQUITHÉRAPIE ?</h2>
-                <p className='more-txt'>
-                    L'équithérapie s'adresse <strong>aux enfants comme aux adultes</strong> présentant des 
-                    <strong> difficultés psychologiques, physiques ou comportementales</strong>.<br />
-                    <br />
-                    <div className='decal'>• en recherche de mieux-être dans un moment de vie difficile</div>
-                    <div className='decal'>• souffrance psychologique (dépression, anxiété ...)</div>
-                    <div className='decal'>• porteur d'un handicap : mental ou physique (autisme, trisomie, polyhandicap ...)</div>
-                    <div className='decal'>• en difficulté émotionnelle ou comportementale (difficultés scolaires, dyspraxie, dysphasie, hyperactivité, ….)</div>
-                    Pour bénéficier d'un projet en équithérapie, il n'est pas indispensable de savoir monter à cheval ni d'avoir déjà été en relation avec les équidés.
-                </p>
+                <h2>Pourquoi le cheval ?</h2>
+                <div className='row-more col-reverse'>
+                    <p className='more-txt'>
+                        Le cheval est un être vivant <strong>authentique</strong>. A son contact, il nous invite à suivre son rythme de vie qui se situe
+                        dans <strong>l’instant présent</strong>. Il <strong>éveille et stimule notre sensorialité</strong> et nous connecte à nos quatre besoins
+                        primaires : chauffer, porter, bercer et toucher. Lui et son environnement regorgent de multiples stimulations
+                        sensorielles qui <strong>réveillent nos émotions</strong>, nos sentiments et quelques fois <strong>nos souvenirs</strong>.<br/>
+                        <br/>
+                        Dans son milieu naturel le cheval est une proie et un animal de fuite. Il est donc <strong>extrêmement attentif à ce
+                        qui l’entoure et à l’être humain</strong>. C’est un partenaire doté d’une grande sensibilité face à notre langage
+                        corporel, il est capable de décrypter et refléter nos propres émotions. On parle du cheval comme étant le
+                        <strong>miroir de notre état interne</strong>, rendant la personne attentive à son état émotionnel, même celui refoulé.<br/>
+                        <br/>
+                        C’est un partenaire sociable et curieux de son environnement, il apporte un <strong></strong>élan à l’interaction et nous
+                        invite à s’ouvrir à lui. Il est <strong>dépourvu de jugement</strong>, c’est un être doux et chaud que l’on peut <strong>câliner</strong> et
+                        auprès duquel on peut se <strong>confier</strong>.<br/>
+                        <br/>
+                        Il nous apporte un cadre <strong>contenant, apaisant et sécurisant</strong> par sa capacité de nous porter, mais aussi, par
+                        sa morphologie. En effet, il instaure des <strong>règles et un cadre à respecter</strong> pour entrer en interaction avec lui de
+                        manière confortable.<br/>
+                        <br/>
+                        Être auprès de ce partenaire est <strong>valorisant</strong> par les soins et l’affection qu’on lui apporte. Il nous apprend
+                        quelque fois à <strong>lâcher prise</strong>, mais aussi, à <strong>s’affirmer et à augmenter sa confiance en soi</strong>.<br/>
+                        <br/>
+                        Poney et chevaux deviennent des partenaires favorisant les découvertes et les expériences par leur
+                        particularité <strong>d’être vivant</strong>.
+                    </p>
+                    <img 
+                        src={Lu_14} 
+                        alt="Lucie et son cheval brun"
+                        className='more-img-why'
+                    />
+                </div>
             </div>
-
-            <div className='col-more rel'>
-                <h2>POURQUOI LE CHEVAL ?</h2>
-                <p className='more-txt more-txt-left rel'>
-                    Le cheval est un <strong>être vivant avec sa propre personnalité</strong>, il est doux, chaud, capable de nous porter et de nous mobiliser.<br />
-                    Il permet des contacts corporels étroit : câlins, peau à peau, massage, soins, portage et il manifeste son plaisir à les recevoir.<br />
-                    <strong>Il réveille ainsi la sensorialité, les émotions et l'attachement</strong>.<br />
-                    <br />
-                    Il est digne d’intérêt et <strong>il est valorisant</strong> de lui apporter des soins et de le monter.<br />
-                    <br />
-                    C'est <strong></strong>un animal authentique qui ne triche pas, il est non intrusif et non jugeant.<br />
-                    <br />
-                    De part sa morphologie et sa taille, <strong>il instaure des règles</strong> et des interdits, il a des besoins<br/>
-                    spécifiques qui imposent <strong>un cadre à respecter</strong>.<br />
-                    <br />
-                    <strong>Le cheval est sensible au dialogue tonique</strong> (communication corporelle corps à corps, non verbale) avec qui le touche et l'accompagne. <br />
-                    Il va aider à travailler la motricité, l'équilibre, le tonus, la coordination, le lâcher prise, l'affirmation et la confiance en soi.<br />
-                    <br />
-                    <strong>C'est un animal sociable qui invite à s'ouvrir à l'autre</strong>. Il aide à conscientiser son positionnement relationnel.<br />
-                    En tant qu'animal « proie » dans son milieu naturel, il est en effet <strong>très réceptif à son environnement</strong> et capte les moindre détails 
-                    (odeurs, attitude corporelle, tonicité) de son entourage et réagit en fonction.<br />
-                    <br />
-                    C'est un animal qui <strong>ne laisse pas indifférent par sa symbolique et l'imaginaire qui lui est rattaché</strong>.<br />
-                    <br />
-                    Toutes ses qualités ne font cependant pas du cheval un thérapeute mais un partenaire en mesure d'ouvrir des opportunités lors de 
-                    séances accompagnées par un professionnel formé.<br />
-                </p>
-                <img 
-                    src={Lu2} 
-                    alt='Lucie monte son cheval brun'
-                    className='more-img abs'
-                />
-            </div>
-                
 
             <div className='col-more'>
-                <h2>QUELS SONT LES OBJECTIFS DE PRISE EN CHARGE ?</h2>
-                <p className='more-txt'>
-                    L’équithérapie donne à chacun l’opportunité de trouver sa place dans une dynamique de changement en partenariat avec le cheval.<br/>
-                    <strong>Des objectifs adaptés sont établis de manière individuelle</strong>.<br/>
+                <h2>A qui s’adresse l’équithérapie ?</h2>
+                <p className='more-txt left'>
+                    Enfants, adolescents, adultes, et séniors ressentant un besoin d’accompagnement sont les bienvenus.<br/>
                     <br/>
-                    Voici quelques exemples d'objectifs :<br/>
+                    J’accueille également les établissements relevant de l’aide sociale, médico-sociale et de santé.<br/>
                     <br/>
-                    <div className='decal'>• travail de réassurance, de confiance en soi et d'estime de soi.<br/></div>
-                    <div className='decal'>• autonomisation, favoriser l'affirmation de soi.<br/></div>
-                    <div className='decal'>• ouverture à la communication, socialisation, à la découverte et au respect de l'autre.<br/></div>
-                    <div className='decal'>• aide à la verbalisation, à l'expression et à la gestion des émotions.<br/></div>
-                    <div className='decal'>• prise de conscience de son corps et de son être dans sa globalité, de l'image qu'on a de soi, se détendre, lâcher-prise.<br/></div>
-                    <div className='decal'>• travailler la motricité : équilibre, tonicité, repères spacio-temporels, coordination ...</div>
+                    Il n’est pas nécessaire d’avoir des connaissances et d’avoir été en relation avec les chevaux pour bénéficier
+                    de l’équithérapie.
                 </p>
-                <span className='flex-img-more'>
-                    <img 
-                        src={P4} 
-                        alt="Lucie et son patient prennent soin d'un cheval brun pendant une séance d'équithérapie"
-                        className='more-img-title'
-                    />
-                </span>
             </div>
         </div>
     )

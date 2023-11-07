@@ -1,4 +1,4 @@
-import pré from '../../assets/Photos/pré.jpg'
+import pré from '../../assets/Photos LdD/pré.jpg'
 import './error.css'
 import { Link } from 'react-router-dom'
 

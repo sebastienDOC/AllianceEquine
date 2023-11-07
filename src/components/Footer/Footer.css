@@ -14,6 +14,15 @@ img.yo {
     align-items: center;
     justify-content: space-around;
 }
+.flex-col {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-row h3{
+    margin: 0;
+}
 .ctn {
     gap: 40px;
     color: white;
@@ -70,14 +79,11 @@ img.yo {
         gap: 15px;
         padding: 0 10px;
     }
-
-    .infos {
+    .flex-col.left h3 {
+        margin: 0;
         display: none;
     }
-    .infos h3 {
-        margin: 0;
-    }
-    .infos p {
-        margin: 0;
+    .img-footer {
+        height: 20px;
     }
 }

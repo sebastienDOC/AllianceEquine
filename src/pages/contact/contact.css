@@ -5,7 +5,7 @@
     padding: 20px;
 }
 .contact-txt {
-    margin: auto 5%;
+    margin: 0 5%;
 }
 .contact-form {
     margin: auto 5%;
@@ -15,10 +15,7 @@
     padding: 0 20px 20px;
     color: #B2BB8A;
 }
-h2.test2 {
-    text-align: center;
-}
-.contact-ctn h4 {
+.contact-ctn h3 {
     margin: 0;
     padding: 5px 30px;
 }
@@ -59,6 +56,7 @@ input::placeholder{
     padding-left: 5px;
 }
 textarea {
+    padding: 5px;
     background-color: #fffff0;
     border: solid #B2BB8A 2px;
     border-radius: 10px;
@@ -73,7 +71,23 @@ button {
     border: solid #B2BB8A 2px;
     border-radius: 10px;
 }
+h2.test2 {
+    text-align: center;
+}
 
+@media screen and (max-width: 800px) {
+    .contact-txt {
+        margin: 0;
+    }
+    .contact-form {
+        min-width: 40%;
+    }
+    form {
+        width: 100%;
+        padding: 0;
+        margin: auto
+    }
+}
 @media screen and (max-width: 600px) {
     .contact-ctn {
         flex-direction: column;
@@ -93,9 +107,9 @@ button {
         font-size: 18px;
         padding: 0 0 10px;
     }
-    .contact-ctn h4{
+    .contact-ctn h3{
         font-size: 14px;
-        padding: 0 25px;
+        padding: 7px 25px 0;
     }
     .contact-icons {
         display: flex;

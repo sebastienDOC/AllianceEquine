@@ -8,7 +8,9 @@ export default function Form() {
         emailjs.sendForm("AllianceEquine", "template_alliance_equine", form.current, "LXBWqb7aKKAacDPe4")
         .then(
           (result) => {
-            console.log(result.text);
+            if (result === 'OK') {
+                <div>Hello darling</div>
+            }
           },
           (error) => {
             console.log(error.text);

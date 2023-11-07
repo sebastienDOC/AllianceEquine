@@ -5,6 +5,7 @@
     flex-direction: column;
     background-image: url('../../assets/fond.jpg');
     background-position : right 30%;
+
 }
 .nav-anchors {
     display: flex;
@@ -56,7 +57,7 @@
     transform: scale(1);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .nav-anchors {
         display: none;
     }

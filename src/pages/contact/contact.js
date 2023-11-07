@@ -11,31 +11,33 @@ export default function Contact() {
             <div className='contact-txt'>
                 <div className='contact-horaires'>
                     <h2>HORAIRES</h2>
-                    <h4>Lundi – Vendredi</h4>
+                    <h3>Lundi – Vendredi</h3>
                     <p>9:00 – 18:00</p>
-                    <h4>Samedi - Dimanche</h4>
+                    <h3>Samedi</h3>
+                    <p>Uniquement sur rendez-vous</p>
+                    <h3>Dimanche</h3>
                     <p>Fermé</p>
                 </div>
                 <div className='contact-us'>
                     <h2>CONTACTEZ-NOUS</h2>
-                    <h4>Adresse: </h4>
-                    <p>86 rue de Longvic, 21000 Dijon</p>
+                    <h3>Adresse: </h3>
+                    <p>Gevrey-Chambertin, Bourgogne-Franche-Comté</p>
                     <br />
-                    <h4>E-mail: </h4>
-                    <p>allianceequine@gmail.com</p>
+                    <h3>E-mail: </h3>
+                    <p>alliance.equitherapie@gmail.com</p>
                     <br />
-                    <h4>Téléphone: </h4>
+                    <h3>Téléphone: </h3>
                     <p>07 85 56 03 82</p>
                     <br />
                     <div className='contact-icons'>
-                        <a href="http://maps.google.com/maps?q=loc:47.308473392217174,5.048602497223575" target="_blank" rel="noreferrer">
+                        <a href="https://maps.app.goo.gl/evYoZK13awR49ecB6" target="_blank" rel="noreferrer">
                             <img 
                                 src={map}
                                 className='img-footer'
                                 alt='Icone de localisation'
                             />
                         </a> 
-                        <a href='mailto:allianceequine@gmail.com'>
+                        <a href='mailto:alliance.equitherapie@gmail.com'>
                             <img 
                                 src={mail}
                                 className='img-footer'

@@ -11,7 +11,7 @@ export default function Header() {
                 outerContainerId={"App"} 
                 right
             />
-            <div className='logo-ctn' >
+            <div className='logo-ctn'>
                 <img 
                     src={logo}
                     className='logo-header'

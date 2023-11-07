@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ModalePhotos from '../../components/Modals/ModalPhoto';
 
 export default function Photos() {
-    const [interval, setInterval] = useState(8000);
+    const [interval, setInterval] = useState(5000);
     const onChange = (index, item) => {
         setInterval(item.props["data-interval"]);
     };
@@ -23,7 +23,7 @@ export default function Photos() {
             >
                 {carousel.map((data) => 
                     <img 
-                        data-interval={8000}
+                        data-interval={5000}
                         key={data.id}
                         src={data.image} 
                         alt={data.titre} 

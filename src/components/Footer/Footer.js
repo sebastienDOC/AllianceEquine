@@ -15,33 +15,27 @@ export default function Footer() {
                     alt="Logo d'Alliance Équine"
                 />
                 <div className='ctn'>
-                    <div className='flex-row left'>
-                        <a href="http://maps.google.com/maps?q=loc:47.308473392217174,5.048602497223575" target="_blank">
+                    <div className='flex-col left'>
+                        <a href="https://maps.app.goo.gl/evYoZK13awR49ecB6" target="_blank">
                             <img 
                                 src={map}
                                 className='img-footer'
                                 alt='Icone de localisation'
                             />
                         </a>
-                        <div className='infos'>
-                            <h3>Adresse</h3> 
-                            <p>86 rue de Longvic, 21000 DIJON</p>
-                        </div>
+                        <h3>Adresse</h3> 
                     </div>
-                    <div className='flex-row left'>
-                        <a href='mailto:allianceequine@gmail.com'>
+                    <div className='flex-col left'>
+                        <a href='mailto:alliance.equitherapie@gmail.com'>
                             <img 
                                 src={mail}
                                 className='img-footer'
                                 alt='Icone de mail'
                             />
                         </a>
-                        <div className='infos'>
-                            <h3>E-mail</h3> 
-                            <p>allianceequine@gmail.com</p>
-                        </div>
+                        <h3>E-mail</h3> 
                     </div>
-                    <div className='flex-row left'>
+                    <div className='flex-col left'>
                         <a href="tel:+33785560382"> 
                             <img 
                                 src={tel}
@@ -49,18 +43,18 @@ export default function Footer() {
                                 alt='Icone de téléphone'
                             />
                         </a>
-                        <div className='infos'>
-                            <h3>Téléphone</h3> 
-                            <p>07 85 56 03 82</p>
-                        </div>
+                        <h3>Téléphone</h3> 
                     </div>
-                    <a href='https://www.instagram.com/lucie.imbs/' target='blank' rel="noreferrer">
-                        <img src={insta} className='insta yo' alt="Logo d'Instagram"/>
-                    </a>
+                    <div className='flex-col left'>
+                        <a href='https://www.instagram.com/lucie.imbs/' target='blank' rel="noreferrer">
+                            <img src={insta} className='insta img-footer' alt="Logo d'Instagram"/>
+                        </a>
+                        <h3>Instagram</h3> 
+                    </div>
                 </div>
             </div>
             <div className='copyright'>
-                Copyright © 2023 - 2024 • Tous droits réservés.
+                Alliance Équine • Copyright © 2023 - 2024 • Tous droits réservés.
             </div>
         </footer>
     )

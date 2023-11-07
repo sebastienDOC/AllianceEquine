@@ -1,6 +1,6 @@
 import './home.css'
-import Lu from '../../assets/Photos/Lu_5.jpg'
-import Lucie from '../../assets/Photos/Lu_7.jpg'
+import Lu_8 from '../../assets/Photos Lu/A pied/Lu_8.jpg'
+import Lu_5 from '../../assets/Photos Lu/A pied/Lu_5.jpg'
 
 export default function Home() {
     return (
@@ -8,49 +8,45 @@ export default function Home() {
             <h1>Bienvenue chez Alliance Équine !</h1>
             <div className='flex'>
                 <div className='home-txt'>
-                    
-                    <h2>UN SOIN PSYCHIQUE, CORPOREL ET SENSORIEL</h2>
+                    <h2>Qui suis-je ?</h2>
                     <p>
-                        L’équithérapie est un soin psychique, corporel et sensoriel qui s’appuie sur la relation avec le cheval, l'âne ou le poney. <br />
+                    Je m’appelle Lucie Imbs, je suis éducatrice formée à l’EDIAC Formations Strasbourg et praticienne en équithérapie formée à Ipocampus. <br />
                         <br />
-                        Il ne s'agit ni d'un sport, ni d'un loisir adapté même si l'aspect ludique est une aide précieuse. <br />
+                        Depuis mon plus jeune âge les chevaux ont été à mes côtés pour m’accompagner et me soutenir dans les différentes étapes de ma vie. <br/>
+                        C’est auprès de ces compagnons dotés de cette grande qualité, celle de ne
+                        jamais juger, que j’ai trouvé de la sérénité, de la générosité et de l’écoute. <br />
                         <br />
-                        C'est un travail sur soi accompagné par un thérapeute spécifiquement formé et diplômé qui met ses compétences relationnelles et ses connaissances du cheval 
-                        au service d’un  espace thérapeutique atypique. <br />
-                        <br />
-                        Les prises en charge peuvent être individuelles ou de groupe (si les objectifs sont communs ou si le travail s'oriente vers la socialisation). <br />
-                        <br />
-                        Le travail est toujours proposé en fonction de la personne et des  objectifs thérapeutiques établis dans un projet de prise en charge individualisé.
+                        J’ai appris à comprendre et à prendre soin de ces partenaires avec respect, fascinée par la relation que nous
+                        pouvons construire avec eux. Aujourd’hui, les chevaux sont devenus mes coéquipiers avec lesquels je
+                        souhaite proposer des temps offrant à chaque personne un espace de parole, d’écoute et de confidentialité.<br />
+                        Un espace dans un cadre apaisant pour évoluer à son propre rythme et avoir la possibilité d’être acteur
+                        auprès des chevaux.
                     </p>
                 </div>
                 <img 
-                    src={Lu} 
-                    alt='Lucie embrassant son cheval'
-                    className='home-img'
+                    src={Lu_8} 
+                    alt='Lucie fait un câlin à son cheval brun'
+                    className='home-img img-pos'
                 />
             </div>
-            <div className='flex-row-about'>
+            <div className='flex reverse'>
+                <img 
+                    src={Lu_5} 
+                    alt='Lucie embrasse son cheval blanc'
+                    className='home-img img-pos marg'
+                />
                 <div className='home-txt'>
-                <h2>Qui suis-je ?</h2>
+                    <h2>Notre environnement</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <h2>Mon parcours</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Nous sommes localisés à Gevrey-Chambertin, en Côte d’Or, offrant un joli cadre propice à la détente. Les
+                        chevaux vivent dans un pré et en groupe pour favoriser leur bien être mental.<br/>
+                        <br/>
+                        Nous bénéficions d’un espace couvert pour pratiquer les séances à l’abri. Les personnes accompagnantes
+                        peuvent profiter d’un espace d’attente couvert avec du thé et du café.<br/>
+                        <br/>
+                        Nous disposons également de toilettes.
                     </p>
                 </div>
-                <img 
-                    src={Lucie}
-                    alt='Lucie avec son cheval blanc'
-                    className='home-img object-pos'
-                />
             </div>
         </div>
     )

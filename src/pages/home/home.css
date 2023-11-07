@@ -7,27 +7,34 @@
     padding: 20px;
 }
 .home-img {
-    width: 400px;
+    min-width: 400px;
     height: 400px;
     object-fit: cover;
     margin: 20px;
 }
 .home-txt {
     margin: 20px;
-    max-width: 400px;
+    max-width: 600px;
 }
 .flex {
     display: flex;
+    max-width: 1440px;
+    margin: auto;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 20px ;
     background-color: #fffff0;
+}
+.img-pos {
+    object-position: bottom ;
 }
 
 @media screen and (max-width: 1000px) {
+    .flex {
+        margin: auto 15px;
+    }
     .home-img {
-        width: 200px;
+        min-width: 200px;
         height: 200px;
     }
     .home-txt {
@@ -47,21 +54,23 @@
 }
 
 @media screen and (max-width: 750px) {
+    .home h1 {
+        font-size: 26px;
+    }
     .home-img {
-        margin: 20px 0 0 0 ;
-        width: 150px;
+        margin: 20px 0;
+        min-width: 200px;
+        max-width: 200px;
         height: 250px;
     }
     .home-txt {
         margin: 0 20px 0 0;
-        max-width: 300px;
+    }
+    .marg {
+        margin: 20px 20px 20px 10px;
     }
     .object-pos {
         margin-right: 20px;
-    }
-    .home-txt h1{
-        margin: 0;
-        font-size: 22px;
     }
     .home-txt h2{
         font-size: 16px;
@@ -72,42 +81,25 @@
 }
 
 @media screen and (max-width: 500px) {
+    .home h1 {
+        font-size: 20px;
+    }
     .flex {
         flex-direction: column;
     }
     .home-img {
-        width: 75%;
+        min-width: 80%;
+        max-width: 80%;
         height: 200px;
         object-fit: cover;
         object-position: right 70% ;
-        margin: 10px auto 0;
+        margin: 10px auto;
     }
     .home-txt {
-        margin: auto;
+        margin: 0 10px;
     }
-}
-
-/* ABOUT ME */
-.flex-row-about {
-    background-color: #fffff0;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px 20px;
-}
-.about-txt p{
-    font-size: 14px;
-}
-.center {
-    padding: 0 5% 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (max-width: 500px) {
-    .flex-row-about {
-        flex-direction: column;
-        padding-top: 20px;
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
