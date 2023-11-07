@@ -5,7 +5,7 @@ import Lu_5 from '../../assets/Photos Lu/A pied/Lu_5.jpg'
 export default function Home() {
     return (
         <div className='home'>
-            <h1>Bienvenue chez Alliance Équine !</h1>
+            <h1>Bienvenue chez Alliance Équine</h1>
             <div className='flex'>
                 <div className='home-txt'>
                     <h2>Qui suis-je ?</h2>
@@ -26,7 +26,7 @@ export default function Home() {
                 <img 
                     src={Lu_8} 
                     alt='Lucie fait un câlin à son cheval brun'
-                    className='home-img img-pos'
+                    className='home-img img-pos img-center'
                 />
             </div>
             <div className='flex reverse'>

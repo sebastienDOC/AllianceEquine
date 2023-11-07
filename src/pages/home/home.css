@@ -83,6 +83,10 @@
 @media screen and (max-width: 500px) {
     .home h1 {
         font-size: 20px;
+        padding-bottom: 0;
+    }
+    .home-txt h2{
+        text-align: center;
     }
     .flex {
         flex-direction: column;
@@ -90,10 +94,13 @@
     .home-img {
         min-width: 80%;
         max-width: 80%;
-        height: 200px;
+        height: 150px;
         object-fit: cover;
         object-position: right 70% ;
         margin: 10px auto;
+    }
+    .img-center {
+        object-position: center 60%;
     }
     .home-txt {
         margin: 0 10px;

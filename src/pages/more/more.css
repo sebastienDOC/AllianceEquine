@@ -1,6 +1,6 @@
 .flex-more {
     max-width: 1440px;
-    margin: 25px auto;
+    margin: 25px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,8 +27,7 @@
 .row-more {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-between;
 }
 .flex-img-more {
     display: flex;
@@ -36,8 +35,8 @@
 }
 .more-img {
     height: 200px;
-    width: 25%;
-    margin: 25px;
+    width: 32%;
+    margin: 25px 0;
     object-fit: cover;
     object-position: top 100%;
 }
@@ -74,6 +73,9 @@ img.abs {
 .decal {
     padding-left: 20px;
     margin: 0 0 5px;
+}
+.col-reverse {
+    gap: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -113,32 +115,42 @@ img.abs {
         object-fit: cover;
         object-position: top 10%;
     }
+    .col-reverse {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .more-img-why {
+        width: 75%;
+        height: 200px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 750px) {
+    .flex-more h1 {
+        margin: 0 0 10px 0;
+    }
+    .flex-more h2 {
+        text-align: center;
+    }
     .flex-more p {
         font-size: 13px;
     }
     .mid {
         object-position: 35%;
     }
-    .col-reverse {
-        flex-direction: column-reverse;
-        gap: 0;
-    }
     .more-img-why {
         width: 90%;
         height: 200px;
         margin-top: 20px;
     }
+    .col-more {
+        width: 90%;
+    }
 }
 @media screen and (max-width: 500px) {
-    .flex-more {
-        padding: 5px;
-    }
     .flex-more h1 {
         font-size: 20px; 
-        margin: 5px 0;
     }
     .flex-more h2 {
         font-size: 16px;
@@ -158,9 +170,6 @@ img.abs {
         width: 80%;
         height: 100px;
         margin-top: 10px;
-    }
-    .more-txt {
-        padding: 0 10px;
     }
     img.abs {
         position: relative;
