@@ -1,6 +1,6 @@
 import './home.css'
-import Lu_8 from '../../assets/Photos Lu/A pied/Lu_8.jpg'
-import Lu_5 from '../../assets/Photos Lu/A pied/Lu_5.jpg'
+import Lu_8 from '../../assets/Photos Lu/A pied/low/Lu_8.webp'
+import Lu_5 from '../../assets/Photos Lu/A pied/low/Lu_5.webp'
 
 export default function Home() {
     return (

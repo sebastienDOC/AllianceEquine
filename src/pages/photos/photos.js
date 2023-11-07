@@ -11,6 +11,10 @@ export default function Photos() {
     const onChange = (index, item) => {
         setInterval(item.props["data-interval"]);
     };
+    function getImgCover(img) {
+        let images = require("../../assets" + img);
+        return images;
+    }
 
     return (
         <div className="center flex-col">
@@ -25,7 +29,7 @@ export default function Photos() {
                     <img 
                         data-interval={5000}
                         key={data.id}
-                        src={data.image} 
+                        src={getImgCover(data.image)} 
                         alt={data.titre} 
                         className='img-carousel'
                     />
@@ -36,8 +40,8 @@ export default function Photos() {
                 {photos.map((data) => 
                     <ModalePhotos 
                         key={data.id}
-                        low={data.low} 
-                        medium={data.medium}
+                        low={getImgCover(data.low)} 
+                        medium={getImgCover(data.medium)}
                         alt={data.alt} 
                     />
                 )}

@@ -8,7 +8,7 @@
 .tarifs-ctn h2{
     color: #B2BB8A;
     margin: 0;
-}
+} 
 .tarifs,
 .aides {
     padding: 20px 50px ;
@@ -20,10 +20,10 @@
     justify-content: center;
 }
 .tarifs-img {
-    width: 80%;
+    width: 60%;
     max-height: 300px;
     object-fit: cover;
-    object-position: bottom;
+    object-position: center 95%;
     margin: 20px;
 }
 

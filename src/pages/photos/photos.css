@@ -11,7 +11,7 @@
 .carousel-root img{
     height: 500px;
     object-fit: cover;
-    object-position: 0 30%;
+    object-position: 0 50%;
 }
 .thumbs-wrapper,
 .carousel-status {
@@ -25,12 +25,38 @@
     gap: 20px;
     width: 80%;
 }
+.photos div {
+    height: 300px;
+}
 .photos-img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .carousel-root {
+        height: 300px;
+        width: 100%;
+    }
+    .carousel-root img{
+        height: 300px;
+        object-position: 50%;
+    }
+    .photos {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+        width: 100%;
+    }
+    .photos div {
+        height: 200px;
+    }
+    .photos-img {
+        height: 200px;
+        object-fit: cover;
+        object-position: center 40%;
+    }
+}
 @media screen and (max-width: 500px) {
     .carousel-root {
         height: 200px;
@@ -45,28 +71,12 @@
         gap: 5px;
         width: 100%;
     }
-    .photos-img {
-        height: 100px;
-        object-fit: cover;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1000px) {
-    .carousel-root {
-        height: 350px;
-        width: 80%;
-    }
-    .carousel-root img{
-        height: 350px;
-        object-position: 50%;
-    }
-    .photos {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 12px;
-        width: 80%;
+    .photos div {
+        height: 150px;
     }
     .photos-img {
         height: 150px;
         object-fit: cover;
+        object-position: center 30%;
     }
 }

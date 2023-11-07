@@ -1,8 +1,8 @@
 import './more.css'
-import P1 from '../../assets/Photos Lu/Patients/patient-1.jpg'
-import P2 from '../../assets/Photos Lu/Patients/patient-2.jpg'
-import P3 from '../../assets/Photos Lu/Patients/patient-3.jpg'
-import Lu_14 from '../../assets/Photos Lu/A pied/Lu_14.jpg'
+import P1 from '../../assets/Photos Lu/Patients/low/patient-1.webp'
+import P2 from '../../assets/Photos Lu/Patients/low/patient-2.webp'
+import P3 from '../../assets/Photos Lu/Patients/low/patient-3.webp'
+import Lu_14 from '../../assets/Photos Lu/A pied/low/Lu_14.webp'
 
 export default function More() {
     return (

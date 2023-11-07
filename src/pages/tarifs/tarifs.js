@@ -1,5 +1,5 @@
 import './tarifs.css'
-import pré from '../../assets/Photos Lu/pré-2.jpg'
+import pré from '../../assets/Photos Lu/pré-2.webp'
 
 export default function Tarifs() {
     return (

@@ -12,6 +12,7 @@ export default function Burger(){
   const handleStateChange = (state) => {
     handleMenu(state.isOpen);
   };
+  
   return (
     <Menu isOpen={isMenuOpen} onStateChange={handleStateChange}> 
       <Link to='/' className="menu-item" onClick={() => handleCloseMenu()}>ACCUEIL</Link>
