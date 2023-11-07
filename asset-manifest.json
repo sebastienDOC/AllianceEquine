@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AllianceEquine/static/css/main.e1c30e27.css",
-    "main.js": "/AllianceEquine/static/js/main.f1243b6c.js",
+    "main.css": "/AllianceEquine/static/css/main.1628ec53.css",
+    "main.js": "/AllianceEquine/static/js/main.d26452a1.js",
     "static/media/fond.jpg": "/AllianceEquine/static/media/fond.f76a9820adab2354c828.jpg",
     "static/media/Lu_12.webp": "/AllianceEquine/static/media/Lu_12.febd41da45c3aee75bd2.webp",
-    "static/media/pré.jpg": "/AllianceEquine/static/media/pré.aa66037d53ec05fba65c.jpg",
+    "static/media/error.webp": "/AllianceEquine/static/media/error.bfd28f0c54fe7b5279c0.webp",
     "static/media/Lu_7.jpg": "/AllianceEquine/static/media/Lu_7.b575b98e0e0714cb3923.jpg",
     "static/media/patient-4.webp": "/AllianceEquine/static/media/patient-4.2352e87cec7b0abd20fb.webp",
     "static/media/logo_transparent.png": "/AllianceEquine/static/media/logo_transparent.f4ed348bf06997cf1690.png",
@@ -23,6 +23,7 @@
     "static/media/Lu_10.webp": "/AllianceEquine/static/media/Lu_10.fb484d713912df6680db.webp",
     "static/media/patient-3.webp": "/AllianceEquine/static/media/patient-3.4f641c2a1ad296b54d81.webp",
     "static/media/Lu_14.webp": "/AllianceEquine/static/media/Lu_14.059f911e52d40d8714fd.webp",
+    "static/media/nez.webp": "/AllianceEquine/static/media/nez.8aba75d2a775d2455429.webp",
     "static/media/patient-6.webp": "/AllianceEquine/static/media/patient-6.36ce6122f42f8f10bfb8.webp",
     "static/media/patient-1.webp": "/AllianceEquine/static/media/patient-1.23c08ceb76673df23622.webp",
     "static/media/patient-5.webp": "/AllianceEquine/static/media/patient-5.3f71a672269b57049120.webp",
@@ -34,11 +35,11 @@
     "static/media/logo.webp": "/AllianceEquine/static/media/logo.6c2a112a13d216c6e7b2.webp",
     "index.html": "/AllianceEquine/index.html",
     "static/media/Texte Equithérapie.txt": "/AllianceEquine/static/media/Texte Equithérapie.e8f26689e370c86453cb.txt",
-    "main.e1c30e27.css.map": "/AllianceEquine/static/css/main.e1c30e27.css.map",
-    "main.f1243b6c.js.map": "/AllianceEquine/static/js/main.f1243b6c.js.map"
+    "main.1628ec53.css.map": "/AllianceEquine/static/css/main.1628ec53.css.map",
+    "main.d26452a1.js.map": "/AllianceEquine/static/js/main.d26452a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1c30e27.css",
-    "static/js/main.f1243b6c.js"
+    "static/css/main.1628ec53.css",
+    "static/js/main.d26452a1.js"
   ]
 }
