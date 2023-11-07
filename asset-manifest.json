@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AllianceEquine/static/css/main.6680ce63.css",
-    "main.js": "/AllianceEquine/static/js/main.7507bee5.js",
+    "main.css": "/AllianceEquine/static/css/main.06ffca6b.css",
+    "main.js": "/AllianceEquine/static/js/main.f98575c0.js",
     "static/media/fond.jpg": "/AllianceEquine/static/media/fond.f76a9820adab2354c828.jpg",
     "static/media/pré.jpg": "/AllianceEquine/static/media/pré.aa66037d53ec05fba65c.jpg",
     "static/media/logo_transparent.png": "/AllianceEquine/static/media/logo_transparent.f4ed348bf06997cf1690.png",
@@ -15,11 +15,11 @@
     "static/media/mail_2.png": "/AllianceEquine/static/media/mail_2.25e074b470b040d973b3.png",
     "static/media/mail.png": "/AllianceEquine/static/media/mail.acd1763f4ed67ac8704e.png",
     "index.html": "/AllianceEquine/index.html",
-    "main.6680ce63.css.map": "/AllianceEquine/static/css/main.6680ce63.css.map",
-    "main.7507bee5.js.map": "/AllianceEquine/static/js/main.7507bee5.js.map"
+    "main.06ffca6b.css.map": "/AllianceEquine/static/css/main.06ffca6b.css.map",
+    "main.f98575c0.js.map": "/AllianceEquine/static/js/main.f98575c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6680ce63.css",
-    "static/js/main.7507bee5.js"
+    "static/css/main.06ffca6b.css",
+    "static/js/main.f98575c0.js"
   ]
 }
