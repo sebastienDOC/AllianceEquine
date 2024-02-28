@@ -10,25 +10,10 @@
         "medium": "/Photos Lu/Patients/high/patient-5.webp",
         "alt": "Image en noir et blanc d'une patiente montant un cheval"
     },    {
-        "id": 13,
-        "low": "/Photos Lu/Patients/low/patient-6.webp",
-        "medium": "/Photos Lu/Patients/high/patient-6.webp",
-        "alt": "Un patient souriant brosse un cheval brun"
-    },    {
-        "id": 14,
-        "low": "/Photos Lu/Patients/low/patient-7.webp",
-        "medium": "/Photos Lu/Patients/high/patient-7.webp",
-        "alt": "Une patiente avec une cheval brun"
-    },    {
         "id": 15,
         "low": "/Photos Lu/Patients/low/patient-8.webp",
         "medium": "/Photos Lu/Patients/high/patient-8.webp",
         "alt": "Un patient monte un cheval couleur crême sous la supervision d'une jeune femme"
-    },    {
-        "id": 16,
-        "low": "/Photos Lu/A pied/low/Lu_1.webp",
-        "medium": "/Photos Lu/A pied/high/Lu_1.webp",
-        "alt": "Lucie prend soin de son cheval couleur crême"
     },    {
         "id": 17,
         "low": "/Photos Lu/A pied/low/Lu_3.webp",
@@ -47,21 +32,21 @@
         "alt": "Lucie embrasse un cheval crême"
     },
     {
-        "id": 22,
-        "low": "/Photos Lu/A pied/low/Lu_10.webp",
-        "medium": "/Photos Lu/A pied/high/Lu_10.webp",
-        "alt": "Lucie prend soin d'un cheval crême"
-    },
-    {
-        "id": 23,
-        "low": "/Photos Lu/A pied/low/Lu_11.webp",
-        "medium": "/Photos Lu/A pied/high/Lu_11.webp",
-        "alt": "Lucie souriante avec deux chevaux crême"
-    },
-    {
         "id": 25,
         "low": "/Photos Lu/A pied/low/Lu_13.webp",
         "medium": "/Photos Lu/A pied/high/Lu_13.webp",
         "alt": "Lucie en promenade avec plusieurs chevaux"
+    },
+    {
+        "id": 26,
+        "low": "/Photos Lu/A pied/low/cheval_1.webp",
+        "medium": "/Photos Lu/A pied/high/cheval_1.webp",
+        "alt": "Un cheval broute de l'herbe"
+    },
+    {
+        "id": 27,
+        "low": "/Photos Lu/A pied/low/cheval_2.webp",
+        "medium": "/Photos Lu/A pied/high/cheval_2.webp",
+        "alt": "Un cheval se promène dans la forêt"
     }
 ]

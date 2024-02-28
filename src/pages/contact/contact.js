@@ -21,7 +21,7 @@ export default function Contact() {
                 <div className='contact-us'>
                     <h2>CONTACTEZ-NOUS</h2>
                     <h3>Adresse: </h3>
-                    <p>Gevrey-Chambertin, Bourgogne-Franche-Comté</p>
+                    <p>Côte d'Or, Bourgogne-Franche-Comté</p>
                     <br />
                     <h3>E-mail: </h3>
                     <p>alliance.equitherapie@gmail.com</p>
@@ -30,7 +30,7 @@ export default function Contact() {
                     <p>07 85 56 03 82</p>
                     <br />
                     <div className='contact-icons'>
-                        <a href="https://maps.app.goo.gl/evYoZK13awR49ecB6" target="_blank" rel="noreferrer">
+                        <a href="https://maps.app.goo.gl/7mf4iza3vCsjHja38" target="_blank" rel="noreferrer">
                             <img 
                                 src={map}
                                 className='img-footer'

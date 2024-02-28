@@ -20,7 +20,7 @@
 .flex {
     display: flex;
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto 40px auto ;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -31,12 +31,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .flex {
-        margin: auto 15px;
-    }
-    .home-img {
+    img.home-img {
         min-width: 200px;
-        height: 200px;
+        width: 250px;
+        max-height: 300px;
     }
     .home-txt {
         margin: 0 20px;
@@ -48,9 +46,6 @@
     }
     .home-txt h2{
         font-size: 18px;
-    }
-    .home-txt p{
-        font-size: 12px;
     }
 }
 
@@ -67,6 +62,9 @@
     .home-txt {
         margin: 0 20px 0 0;
     }
+    .home-txt p{
+        font-size: 14px;
+    }
     .marg {
         margin: 20px 20px 20px 10px;
     }
@@ -76,8 +74,13 @@
     .home-txt h2{
         font-size: 16px;
     }
-    .home-txt p{
-        font-size: 10px;
+    .flex {
+        flex-direction: column;
+        margin: 0 20px 40px ;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
@@ -88,9 +91,6 @@
     }
     .home-txt h2{
         text-align: center;
-    }
-    .flex {
-        flex-direction: column;
     }
     .home-img {
         min-width: 80%;
@@ -105,9 +105,5 @@
     }
     .home-txt {
         margin: 0 10px;
-    }
-    .reverse {
-        display: flex;
-        flex-direction: column-reverse;
     }
 }

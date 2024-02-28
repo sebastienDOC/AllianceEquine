@@ -36,7 +36,8 @@
 @media screen and (max-width: 750px) {
     .tarifs,
     .aides {
-        padding: 0 20px 20px;
+        width: 90%;
+        padding: 0 0 20px;
     }
     .tarifs-img {
         width: 80%;
@@ -44,9 +45,6 @@
     }
     .tarifs-ctn h2{
         font-size: 20px;
-    }
-    .tarifs-ctn p{
-        font-size: 12px;
     }
     .tarifs-flex {
         flex-direction: column;

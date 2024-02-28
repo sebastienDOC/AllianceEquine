@@ -16,7 +16,7 @@ export default function Footer() {
                 />
                 <div className='ctn'>
                     <div className='flex-col left'>
-                        <a href="https://maps.app.goo.gl/evYoZK13awR49ecB6" target="_blank">
+                        <a href="https://maps.app.goo.gl/7mf4iza3vCsjHja38" target="_blank" rel="noreferrer">
                             <img 
                                 src={map}
                                 className='img-footer'
