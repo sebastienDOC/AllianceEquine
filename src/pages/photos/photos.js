@@ -7,7 +7,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Modal from '../../components/Modal/Modal';
 
 export default function Photos() {
-    const [isOpen, setIsOpen] = useState(false);
     const [interval, setInterval] = useState(5000);
     const onChange = (index, item) => {
         setInterval(item.props["data-interval"]);

@@ -27,7 +27,7 @@ export default function Contact() {
                     <p>alliance.equitherapie@gmail.com</p>
                     <br />
                     <h3>Téléphone: </h3>
-                    <p>07 85 56 03 82</p>
+                    <p>** ** ** ** **</p>
                     <br />
                     <div className='contact-icons'>
                         <a href="https://maps.app.goo.gl/7mf4iza3vCsjHja38" target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@ export default function Contact() {
                                 alt='Icone de mail'
                             />
                         </a>
-                        <a href="tel:+33785560382"> 
+                        <a href="tel:+** ** ** ** **"> 
                             <img 
                                 src={tel}
                                 className='img-footer'

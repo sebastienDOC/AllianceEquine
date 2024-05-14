@@ -36,7 +36,7 @@ export default function Footer() {
                         <h3>E-mail</h3> 
                     </div>
                     <div className='flex-col left'>
-                        <a href="tel:+33785560382"> 
+                        <a href="tel:+** ** ** ** **"> 
                             <img 
                                 src={tel}
                                 className='img-footer'

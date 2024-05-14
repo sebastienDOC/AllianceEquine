@@ -27,7 +27,7 @@ export default function Burger(){
         className="menu-item"
         rel="noreferrer"
       >
-          <img src={insta} className='insta yo'/>
+          <img src={insta} className='insta yo' alt="Logo Instagram"/>
       </a>
     </Menu>
   );
